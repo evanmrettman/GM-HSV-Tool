@@ -487,7 +487,7 @@ draw_text(x_pos,yy,"Luminosity: " + string(round(val))); yy += yy_inc;
 draw_text(x_pos,yy,"Color Display"); yy += yy_inc;
 draw_text(x_pos,yy,"Image Preview"); yy += 128
 draw_set_halign(fa_center);
-draw_text(x+128/2,y+608-24*1.5,"GM HSV Tool#Created by Sudnep");
+draw_text(x+128/2,y+608-24*1.5,"#GM HSV Tool"/*#Created by Sudnep*/);
 /// visual elements
 draw_set_color(blend);
 draw_sprite_ext(sprite,0,x+64-sWidth/2*xscale,y+233-sHeight/2*yscale,xscale,yscale,0,blend,1); // sprite display
