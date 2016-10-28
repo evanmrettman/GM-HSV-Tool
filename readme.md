@@ -1,4 +1,4 @@
-GM HSV Tool v1.0
+#GM HSV Tool v1.0
 
 A tool used for image blend manipulation through HSV values. This is an application created in Gamemaker: Studio.
 
@@ -11,12 +11,14 @@ A tool used for image blend manipulation through HSV values. This is an applicat
 
 Example use for image blend: image_blend = make_color_hsv(hue,saturation,luminosity);
 	
-Keybinds:
-	F1	Get File
-	S	Save File
-	R	Randomize
-	F2	Restart
-	~	Simple Mode
-	ESC	Quit
+	
+Keybind | Action
+--- | ---
+F1 | Get File
+F2 | Restart
+S | Save File
+R | Randomize
+~ | Simple Mode
+ESC | Quit
 
 Contact me if you have any questions or suggestions.
